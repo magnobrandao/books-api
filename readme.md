@@ -2,12 +2,29 @@
 
 This project is a bookshelf app that allows you to select and search books by any text field.
  
-## Quick start
 
-1. Make sure dockerd is running in your local
-2. Start container: `docker compose up`
+## 🔗 Pré-requisitos
 
-The application will start at `http://localhost:3000`
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: docker e node.js. Você também vai precisar de um editor de código, recomendo o VS Code. 
+
+## Rodando o Projeto
+
+```bash
+
+# Clone este repositório (ou download )
+
+ git clone git@github.com:magnobrandao/books-api.git
+
+# Acesse a pasta do projeto no terminal/cmd
+
+  $ cd books-api
+
+# Rode o docker compose
+
+  $ docker compose up
+
+```
+Sua aplicação estará rodando em `http://localhost:3000`
 
 ## Backend Server
 
